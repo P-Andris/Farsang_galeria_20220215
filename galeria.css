@@ -1,0 +1,58 @@
+main {
+    display: grid;
+    grid-template-areas: "h h h h"
+                         "n n n n"
+                         "a a a a"
+                         "f f f f";
+    text-align: center;
+    border: 1px solid black;
+}
+
+header {
+    grid-area: h;
+    background-color: #F4E76E;
+    height: 350px;
+}
+
+header h1 {
+    padding-top: 5%;
+    font-size: 75px;
+}
+
+nav {
+    grid-area: n;
+    background-color: #f7fe72;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    grid-area: a;
+    padding: 15px;
+    background-color: #51BBFE;
+}
+
+.galery-img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+footer {
+    grid-area: f;
+    padding: 10px;
+    background-color: #8ff7a7;
+    font-weight: bold;
+}
