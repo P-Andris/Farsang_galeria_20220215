@@ -75,7 +75,7 @@ article {
     background-color: #51BBFE;
 }
 
-.galery-img {
+.gallery-img {
     height: 200px;
     width: 200px;
     border: 3px solid #F4E76E;
@@ -83,7 +83,7 @@ article {
     padding: 3px;
 }
 
-.galery-img:hover {
+.gallery-img:hover {
     transform: scale(1.25);
     transition: transform 1.2s;
 }
